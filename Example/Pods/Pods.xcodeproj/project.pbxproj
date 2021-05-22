@@ -14,8 +14,8 @@
 		74DEE5C7B6E747FCD22A554208B8E12E /* Pods-ZLLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6760A296A55EFD1D6D69BA150FC7CE0B /* Pods-ZLLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F83526436E5667FCC0D14BAB437DD2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		BA328B2C6457247A6781461855FC89C3 /* Pods-ZLLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA364F4AB5A1A828B8FE44894F8B9BE /* Pods-ZLLib_Tests-dummy.m */; };
-		C2DD3EB726596E0D008B2F27 /* CHButtonSimple.h in Headers */ = {isa = PBXBuildFile; fileRef = C2DD3EB526596E0D008B2F27 /* CHButtonSimple.h */; };
-		C2DD3EB826596E0D008B2F27 /* CHButtonSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DD3EB626596E0D008B2F27 /* CHButtonSimple.m */; };
+		C2DD3EC626597ECB008B2F27 /* CHButtonSimple.h in Headers */ = {isa = PBXBuildFile; fileRef = C2DD3EC426597ECB008B2F27 /* CHButtonSimple.h */; };
+		C2DD3EC726597ECB008B2F27 /* CHButtonSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DD3EC526597ECB008B2F27 /* CHButtonSimple.m */; };
 		C31E59565EDB4B6D8489348DE16EE593 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E367B0446BD5E23DAC3B0ACCDA0E8A33 /* Pods-ZLLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFCD4DBD7155A77B94D6044082B741A /* Pods-ZLLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -60,8 +60,8 @@
 		AE063B1F9F1C40946DE3DED6146385BA /* Pods-ZLLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		B0271037D3354F60FFCD28CAEC9197D6 /* Pods-ZLLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BBA87BBA53A688C680F9B93545B4C023 /* ZLLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLLib-umbrella.h"; sourceTree = "<group>"; };
-		C2DD3EB526596E0D008B2F27 /* CHButtonSimple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHButtonSimple.h; sourceTree = "<group>"; };
-		C2DD3EB626596E0D008B2F27 /* CHButtonSimple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHButtonSimple.m; sourceTree = "<group>"; };
+		C2DD3EC426597ECB008B2F27 /* CHButtonSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHButtonSimple.h; path = ZLLib/Classes/CHButtonSimple.h; sourceTree = "<group>"; };
+		C2DD3EC526597ECB008B2F27 /* CHButtonSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHButtonSimple.m; path = ZLLib/Classes/CHButtonSimple.m; sourceTree = "<group>"; };
 		C46F787D57242BF3F3249B1A1281A0A9 /* Pods-ZLLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CCA364F4AB5A1A828B8FE44894F8B9BE /* Pods-ZLLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		CE1D420756350C71EEEA885FFA3BD4A2 /* ZLLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLLib.release.xcconfig; sourceTree = "<group>"; };
@@ -188,8 +188,8 @@
 		C803720D5CFCBCF3E2B4E67509C88805 /* ZLLib */ = {
 			isa = PBXGroup;
 			children = (
-				C2DD3EB526596E0D008B2F27 /* CHButtonSimple.h */,
-				C2DD3EB626596E0D008B2F27 /* CHButtonSimple.m */,
+				C2DD3EC426597ECB008B2F27 /* CHButtonSimple.h */,
+				C2DD3EC526597ECB008B2F27 /* CHButtonSimple.m */,
 				ED949193EF04F6B2E843ABAF5481574A /* Pod */,
 				911D6DD6E733593D7C3BFB89758949E3 /* Support Files */,
 			);
@@ -234,7 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2017FE07E469FCE2F53C78358840F730 /* ZLLib-umbrella.h in Headers */,
-				C2DD3EB726596E0D008B2F27 /* CHButtonSimple.h in Headers */,
+				C2DD3EC626597ECB008B2F27 /* CHButtonSimple.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2DD3EB826596E0D008B2F27 /* CHButtonSimple.m in Sources */,
+				C2DD3EC726597ECB008B2F27 /* CHButtonSimple.m in Sources */,
 				5AC72143C7F3C5DE8FEA24301AD0BDC2 /* ZLLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
