@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		18ED0B613A03D8AF0858AE65 /* Pods_ZLLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C51F43C58AD3A6DDAFAF189 /* Pods-ZLLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZLLib_Example/Pods-ZLLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4438C17AECEF6168BADA131A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4438C17AECEF6168BADA131A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5BD798BC4154AEBB94C93244 /* Pods_ZLLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ZLLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,10 +60,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		657536DC6D4D8EA9F14A0BFF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		657536DC6D4D8EA9F14A0BFF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AFB3757C5A8659E4EA798BB5 /* ZLLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZLLib.podspec; path = ../ZLLib.podspec; sourceTree = "<group>"; };
+		AFB3757C5A8659E4EA798BB5 /* ZLLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZLLib.podspec; path = ../ZLLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BDCF5BF8CC72D94207099E5A /* Pods-ZLLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLLib_Example.release.xcconfig"; path = "Target Support Files/Pods-ZLLib_Example/Pods-ZLLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DD9DA27ABFDF9D787D49566A /* Pods-ZLLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZLLib_Tests/Pods-ZLLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EDD817CF3A72795727727828 /* Pods-ZLLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZLLib_Tests/Pods-ZLLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				EDD817CF3A72795727727828 /* Pods-ZLLib_Tests.debug.xcconfig */,
 				DD9DA27ABFDF9D787D49566A /* Pods-ZLLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
