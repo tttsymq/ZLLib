@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZLLib_Example' do
+  pod 'ZLLib', :path => '../'
+
+  target 'ZLLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
