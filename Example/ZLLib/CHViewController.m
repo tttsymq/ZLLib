@@ -7,6 +7,7 @@
 //
 
 #import "CHViewController.h"
+#import "ZLLib.h"
 
 @interface CHViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor orangeColor];
 }
 
 - (void)didReceiveMemoryWarning

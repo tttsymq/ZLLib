@@ -1,5 +1,5 @@
 PODS:
-  - ZLLib (0.1.0)
+  - ZLLib (0.1.2)
 
 DEPENDENCIES:
   - ZLLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZLLib: 6e4d24d914680a24556d3bf9a25e720308978aea
+  ZLLib: 79a56a0ee440d00ac4574cd7ff00c293ff87bdaa
 
 PODFILE CHECKSUM: 7120a5441d0d8e19e29747ff58f432b694ad5190
 

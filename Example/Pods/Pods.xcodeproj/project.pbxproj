@@ -8,86 +8,86 @@
 
 /* Begin PBXBuildFile section */
 		16F038813545F6C0B8ABA287AA8641D5 /* Pods-ZLLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7D73BF26A38BCD6DC2C45CB2C201D /* Pods-ZLLib_Example-dummy.m */; };
-		2017FE07E469FCE2F53C78358840F730 /* ZLLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA87BBA53A688C680F9B93545B4C023 /* ZLLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AC72143C7F3C5DE8FEA24301AD0BDC2 /* ZLLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A599E816620CBA65D8E99CFCCB8DC2 /* ZLLib-dummy.m */; };
-		6422AB32DE7C544EEB32BA31229ADE75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3B804B52E26EDA7F4E6DCA67D3C69301 /* ZLLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E31C889AEC0E85CA7F3764A24709122 /* ZLLib.m */; };
+		60FB7A411FD4F46336AA6038BC90256B /* ZLLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 254EDD67AAD52ED9E5A5C59529D2F62D /* ZLLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74DEE5C7B6E747FCD22A554208B8E12E /* Pods-ZLLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6760A296A55EFD1D6D69BA150FC7CE0B /* Pods-ZLLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DE7461DADD1752E3F4E5958E4F96F03 /* ZLLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5796BCEE4EB0F4588D50DFB3178B0D76 /* ZLLib-dummy.m */; };
 		8F83526436E5667FCC0D14BAB437DD2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B562E21AFD14B38F62177EB6A2C6F039 /* ZLLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 291E57226BA5160E264464A7D65CF807 /* ZLLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA328B2C6457247A6781461855FC89C3 /* Pods-ZLLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA364F4AB5A1A828B8FE44894F8B9BE /* Pods-ZLLib_Tests-dummy.m */; };
-		C2DD3EC626597ECB008B2F27 /* CHButtonSimple.h in Headers */ = {isa = PBXBuildFile; fileRef = C2DD3EC426597ECB008B2F27 /* CHButtonSimple.h */; };
-		C2DD3EC726597ECB008B2F27 /* CHButtonSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DD3EC526597ECB008B2F27 /* CHButtonSimple.m */; };
 		C31E59565EDB4B6D8489348DE16EE593 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D916F4B3170542623C667DABDCB3CC23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E367B0446BD5E23DAC3B0ACCDA0E8A33 /* Pods-ZLLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFCD4DBD7155A77B94D6044082B741A /* Pods-ZLLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C4B1CDD77843A4B3CD6980E234F85511 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 49CEF590D8EEA6D8C03AB7B0A1D80CDC;
-			remoteInfo = ZLLib;
-		};
-		E8C7609DE71AF97E062DF52498A48473 /* PBXContainerItemProxy */ = {
+		B45CC540538C63965725920771D6D43F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6C13DBB85E9C5A36E0F323746289F3CE;
 			remoteInfo = "Pods-ZLLib_Example";
 		};
+		E338DDC2E5B0F97D90EE046AC6E16C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49CEF590D8EEA6D8C03AB7B0A1D80CDC;
+			remoteInfo = ZLLib;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		06A252F0BAD9CAEC6BBE067ABCEFD5CA /* Pods-ZLLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0AD84FCDAE4D2F29FE42B02C619D9E5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0EB7D73BF26A38BCD6DC2C45CB2C201D /* Pods-ZLLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLLib_Example-dummy.m"; sourceTree = "<group>"; };
+		1E242B01053F425A7DA8C905FCDD3E13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		254EDD67AAD52ED9E5A5C59529D2F62D /* ZLLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLLib-umbrella.h"; sourceTree = "<group>"; };
+		28F458D66729A22D4A65D797615069BB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2906140A9023FFB62F631B88F874D693 /* Pods-ZLLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		39FAEDBF4B1567E37E49FB5B92AF9ACE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		48B5DBF736CF23A75CD8BB2BD3C7286A /* ZLLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZLLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4A12816FF8D854A877EA87B320BE2D13 /* ZLLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53CFE99D66234BE4C8D31892474750D2 /* ZLLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLLib.modulemap; sourceTree = "<group>"; };
-		58724CDAE07588939AB4A23B18EDB9F6 /* Pods_ZLLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		291E57226BA5160E264464A7D65CF807 /* ZLLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLLib.h; path = ZLLib/Classes/ZLLib.h; sourceTree = "<group>"; };
+		4A12816FF8D854A877EA87B320BE2D13 /* ZLLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZLLib.framework; path = ZLLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5154DC6AE8C6CCDA60D740768DCE2C87 /* ZLLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLLib-Info.plist"; sourceTree = "<group>"; };
+		56854980D490FC326794C435BC839D6C /* ZLLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLLib.release.xcconfig; sourceTree = "<group>"; };
+		5796BCEE4EB0F4588D50DFB3178B0D76 /* ZLLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLLib-dummy.m"; sourceTree = "<group>"; };
+		58724CDAE07588939AB4A23B18EDB9F6 /* Pods_ZLLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZLLib_Example.framework; path = "Pods-ZLLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		623EFC01BAD443CDB2164D180E9FBD26 /* ZLLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZLLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6760A296A55EFD1D6D69BA150FC7CE0B /* Pods-ZLLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		71A599E816620CBA65D8E99CFCCB8DC2 /* ZLLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLLib-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		739EF8E59F3B96702EB85E113F936946 /* ZLLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLLib-prefix.pch"; sourceTree = "<group>"; };
 		752D3A61E6F1897E92A32C0165673814 /* Pods-ZLLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7A6692B5AD3824F8D71C87647C3B096B /* ZLLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLLib.debug.xcconfig; sourceTree = "<group>"; };
 		7CB2E9F9C6824FB5F7EB1C52F07CE0DD /* Pods-ZLLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7D79151C5A5EAA45A7F0F8654E71AED3 /* ZLLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLLib-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		83787967DD5A78238AC4A05C8517F550 /* ZLLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLLib.debug.xcconfig; sourceTree = "<group>"; };
+		8E31C889AEC0E85CA7F3764A24709122 /* ZLLib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLLib.m; path = ZLLib/Classes/ZLLib.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A629E52F5D76D64597973771D5060122 /* Pods-ZLLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A9D74C40A9BB4B488355DD5230DE5A82 /* Pods-ZLLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLLib_Example.modulemap"; sourceTree = "<group>"; };
 		AE063B1F9F1C40946DE3DED6146385BA /* Pods-ZLLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		B0271037D3354F60FFCD28CAEC9197D6 /* Pods-ZLLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BBA87BBA53A688C680F9B93545B4C023 /* ZLLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLLib-umbrella.h"; sourceTree = "<group>"; };
-		C2DD3EC426597ECB008B2F27 /* CHButtonSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHButtonSimple.h; path = ZLLib/Classes/CHButtonSimple.h; sourceTree = "<group>"; };
-		C2DD3EC526597ECB008B2F27 /* CHButtonSimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHButtonSimple.m; path = ZLLib/Classes/CHButtonSimple.m; sourceTree = "<group>"; };
 		C46F787D57242BF3F3249B1A1281A0A9 /* Pods-ZLLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CCA364F4AB5A1A828B8FE44894F8B9BE /* Pods-ZLLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		CE1D420756350C71EEEA885FFA3BD4A2 /* ZLLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLLib.release.xcconfig; sourceTree = "<group>"; };
 		D3FF035626BBC73905F95DC69F503A65 /* Pods-ZLLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLLib_Example-Info.plist"; sourceTree = "<group>"; };
 		D541B8DD979C06D35919F8997E6F1D57 /* Pods-ZLLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAE0ED42765D5E15E95B21BAA37AF2A0 /* ZLLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLLib.modulemap; sourceTree = "<group>"; };
 		E272359C188CC7F590645C5C27B03519 /* Pods-ZLLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLLib_Tests.modulemap"; sourceTree = "<group>"; };
 		E693C7E6C79444F29A4A7E84C531851D /* Pods-ZLLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E97FE02BD2D509BD3CE1C7BDE92A6D0D /* Pods_ZLLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97FE02BD2D509BD3CE1C7BDE92A6D0D /* Pods_ZLLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZLLib_Tests.framework; path = "Pods-ZLLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFCD4DBD7155A77B94D6044082B741A /* Pods-ZLLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		FA481F3A0DCCA86384F8050ED8FC72BD /* ZLLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZLLib-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2681723237052D2D37F5519FE972B1EC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6422AB32DE7C544EEB32BA31229ADE75 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AFFD87427F9B5DE32EDE23E3674EF3FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C31E59565EDB4B6D8489348DE16EE593 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6530C92D9FB31111A597695681A7713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D916F4B3170542623C667DABDCB3CC23 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +109,31 @@
 				4420416EE04CD5C6C5128C9FEC9E7DA0 /* Pods-ZLLib_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2A4DB4D98CEB812FD51CFF11F52E3925 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAE0ED42765D5E15E95B21BAA37AF2A0 /* ZLLib.modulemap */,
+				5796BCEE4EB0F4588D50DFB3178B0D76 /* ZLLib-dummy.m */,
+				5154DC6AE8C6CCDA60D740768DCE2C87 /* ZLLib-Info.plist */,
+				739EF8E59F3B96702EB85E113F936946 /* ZLLib-prefix.pch */,
+				254EDD67AAD52ED9E5A5C59529D2F62D /* ZLLib-umbrella.h */,
+				83787967DD5A78238AC4A05C8517F550 /* ZLLib.debug.xcconfig */,
+				56854980D490FC326794C435BC839D6C /* ZLLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZLLib";
+			sourceTree = "<group>";
+		};
+		441B44080A8305594544CF26356AB611 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1E242B01053F425A7DA8C905FCDD3E13 /* LICENSE */,
+				28F458D66729A22D4A65D797615069BB /* README.md */,
+				623EFC01BAD443CDB2164D180E9FBD26 /* ZLLib.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		4420416EE04CD5C6C5128C9FEC9E7DA0 /* Pods-ZLLib_Tests */ = {
@@ -162,36 +187,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		911D6DD6E733593D7C3BFB89758949E3 /* Support Files */ = {
+		B63CD85FC574343D8229BDA72056DCD7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				53CFE99D66234BE4C8D31892474750D2 /* ZLLib.modulemap */,
-				71A599E816620CBA65D8E99CFCCB8DC2 /* ZLLib-dummy.m */,
-				FA481F3A0DCCA86384F8050ED8FC72BD /* ZLLib-Info.plist */,
-				7D79151C5A5EAA45A7F0F8654E71AED3 /* ZLLib-prefix.pch */,
-				BBA87BBA53A688C680F9B93545B4C023 /* ZLLib-umbrella.h */,
-				7A6692B5AD3824F8D71C87647C3B096B /* ZLLib.debug.xcconfig */,
-				CE1D420756350C71EEEA885FFA3BD4A2 /* ZLLib.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZLLib";
-			sourceTree = "<group>";
-		};
-		A08672BFA612D2E4C2FBBEA7338507FF /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C803720D5CFCBCF3E2B4E67509C88805 /* ZLLib */,
+				BE5D5FC97A90E1AAC7397759E51C84CF /* ZLLib */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		C803720D5CFCBCF3E2B4E67509C88805 /* ZLLib */ = {
+		BE5D5FC97A90E1AAC7397759E51C84CF /* ZLLib */ = {
 			isa = PBXGroup;
 			children = (
-				C2DD3EC426597ECB008B2F27 /* CHButtonSimple.h */,
-				C2DD3EC526597ECB008B2F27 /* CHButtonSimple.m */,
-				ED949193EF04F6B2E843ABAF5481574A /* Pod */,
-				911D6DD6E733593D7C3BFB89758949E3 /* Support Files */,
+				291E57226BA5160E264464A7D65CF807 /* ZLLib.h */,
+				8E31C889AEC0E85CA7F3764A24709122 /* ZLLib.m */,
+				441B44080A8305594544CF26356AB611 /* Pod */,
+				2A4DB4D98CEB812FD51CFF11F52E3925 /* Support Files */,
 			);
 			name = ZLLib;
 			path = ../..;
@@ -201,7 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A08672BFA612D2E4C2FBBEA7338507FF /* Development Pods */,
+				B63CD85FC574343D8229BDA72056DCD7 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				63EEDC74914336FAE60B53CA2B740236 /* Products */,
 				0E381C008AC9D39F5991BEF38377DB1D /* Targets Support Files */,
@@ -216,25 +226,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ED949193EF04F6B2E843ABAF5481574A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0AD84FCDAE4D2F29FE42B02C619D9E5E /* LICENSE */,
-				39FAEDBF4B1567E37E49FB5B92AF9ACE /* README.md */,
-				48B5DBF736CF23A75CD8BB2BD3C7286A /* ZLLib.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4EF289BB4E70C3F28CB10943A4386C14 /* Headers */ = {
+		05FC51C1F41E3D0AFD5B71D723E2D65C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2017FE07E469FCE2F53C78358840F730 /* ZLLib-umbrella.h in Headers */,
-				C2DD3EC626597ECB008B2F27 /* CHButtonSimple.h in Headers */,
+				60FB7A411FD4F46336AA6038BC90256B /* ZLLib-umbrella.h in Headers */,
+				B562E21AFD14B38F62177EB6A2C6F039 /* ZLLib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,12 +259,12 @@
 /* Begin PBXNativeTarget section */
 		49CEF590D8EEA6D8C03AB7B0A1D80CDC /* ZLLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F783D1C550AF95F15508F5D111C9DD3C /* Build configuration list for PBXNativeTarget "ZLLib" */;
+			buildConfigurationList = 55F72C9BCA5B8BB4A3A26366CC354C81 /* Build configuration list for PBXNativeTarget "ZLLib" */;
 			buildPhases = (
-				4EF289BB4E70C3F28CB10943A4386C14 /* Headers */,
-				BAC6B675ACC583155DC008C12171E53D /* Sources */,
-				2681723237052D2D37F5519FE972B1EC /* Frameworks */,
-				4166B1EDD8C816B4D070C0E0ADC48A8D /* Resources */,
+				05FC51C1F41E3D0AFD5B71D723E2D65C /* Headers */,
+				8F9C72DDEEA003C5A63805D47AF382B3 /* Sources */,
+				C6530C92D9FB31111A597695681A7713 /* Frameworks */,
+				092A5D319E280D0C407DE5EB65244E19 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -287,7 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8CAFA78F1CACE771B70F5D93E13EEF48 /* PBXTargetDependency */,
+				0C587B22DD730603BEA0E481993A9C45 /* PBXTargetDependency */,
 			);
 			name = "Pods-ZLLib_Example";
 			productName = "Pods-ZLLib_Example";
@@ -306,7 +306,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1EAAEE660CF7ED32C3A3CFA370A3DF34 /* PBXTargetDependency */,
+				A929B63597846EADAF6EBD3D75113E4E /* PBXTargetDependency */,
 			);
 			name = "Pods-ZLLib_Tests";
 			productName = "Pods-ZLLib_Tests";
@@ -343,7 +343,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4166B1EDD8C816B4D070C0E0ADC48A8D /* Resources */ = {
+		092A5D319E280D0C407DE5EB65244E19 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,12 +367,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BAC6B675ACC583155DC008C12171E53D /* Sources */ = {
+		8F9C72DDEEA003C5A63805D47AF382B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2DD3EC726597ECB008B2F27 /* CHButtonSimple.m in Sources */,
-				5AC72143C7F3C5DE8FEA24301AD0BDC2 /* ZLLib-dummy.m in Sources */,
+				7DE7461DADD1752E3F4E5958E4F96F03 /* ZLLib-dummy.m in Sources */,
+				3B804B52E26EDA7F4E6DCA67D3C69301 /* ZLLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,17 +395,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1EAAEE660CF7ED32C3A3CFA370A3DF34 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ZLLib_Example";
-			target = 6C13DBB85E9C5A36E0F323746289F3CE /* Pods-ZLLib_Example */;
-			targetProxy = E8C7609DE71AF97E062DF52498A48473 /* PBXContainerItemProxy */;
-		};
-		8CAFA78F1CACE771B70F5D93E13EEF48 /* PBXTargetDependency */ = {
+		0C587B22DD730603BEA0E481993A9C45 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZLLib;
 			target = 49CEF590D8EEA6D8C03AB7B0A1D80CDC /* ZLLib */;
-			targetProxy = C4B1CDD77843A4B3CD6980E234F85511 /* PBXContainerItemProxy */;
+			targetProxy = E338DDC2E5B0F97D90EE046AC6E16C03 /* PBXContainerItemProxy */;
+		};
+		A929B63597846EADAF6EBD3D75113E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZLLib_Example";
+			target = 6C13DBB85E9C5A36E0F323746289F3CE /* Pods-ZLLib_Example */;
+			targetProxy = B45CC540538C63965725920771D6D43F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -436,6 +436,36 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0D05CC116B539E69C228B70BC05293B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83787967DD5A78238AC4A05C8517F550 /* ZLLib.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZLLib/ZLLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZLLib/ZLLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLLib/ZLLib.modulemap";
+				PRODUCT_MODULE_NAME = ZLLib;
+				PRODUCT_NAME = ZLLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -507,6 +537,37 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		26C0C448CFE552EDEA572BC0BD6D781F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56854980D490FC326794C435BC839D6C /* ZLLib.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZLLib/ZLLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZLLib/ZLLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLLib/ZLLib.modulemap";
+				PRODUCT_MODULE_NAME = ZLLib;
+				PRODUCT_NAME = ZLLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		65AFF87B00BD9A99041BD7CB6BF1CF02 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -606,36 +667,6 @@
 			};
 			name = Release;
 		};
-		967D86F0B2F5C896DB7B20A9F43D5E0B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A6692B5AD3824F8D71C87647C3B096B /* ZLLib.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZLLib/ZLLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZLLib/ZLLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZLLib/ZLLib.modulemap";
-				PRODUCT_MODULE_NAME = ZLLib;
-				PRODUCT_NAME = ZLLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -691,40 +722,10 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		E63663ECD16ACAD2633FD5B9E9D4D992 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE1D420756350C71EEEA885FFA3BD4A2 /* ZLLib.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ZLLib/ZLLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ZLLib/ZLLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ZLLib/ZLLib.modulemap";
-				PRODUCT_MODULE_NAME = ZLLib;
-				PRODUCT_NAME = ZLLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -749,20 +750,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		55F72C9BCA5B8BB4A3A26366CC354C81 /* Build configuration list for PBXNativeTarget "ZLLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D05CC116B539E69C228B70BC05293B1 /* Debug */,
+				26C0C448CFE552EDEA572BC0BD6D781F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A6B93B62748F747A58F52C352801E34F /* Build configuration list for PBXNativeTarget "Pods-ZLLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05455CF36E2826818066ED8303730F30 /* Debug */,
 				65AFF87B00BD9A99041BD7CB6BF1CF02 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F783D1C550AF95F15508F5D111C9DD3C /* Build configuration list for PBXNativeTarget "ZLLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				967D86F0B2F5C896DB7B20A9F43D5E0B /* Debug */,
-				E63663ECD16ACAD2633FD5B9E9D4D992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

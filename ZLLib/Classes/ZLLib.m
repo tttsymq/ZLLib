@@ -5,13 +5,13 @@
 //  Created by wch on 2021/5/23.
 //
 
-#import "CHButtonSimple.h"
+#import "ZLLib.h"
 
-@implementation CHButtonSimple
+@implementation ZLLib
 
 - (void)test
 {
-    
+    NSLog(@"--- %s", __func__);
 }
 
 @end

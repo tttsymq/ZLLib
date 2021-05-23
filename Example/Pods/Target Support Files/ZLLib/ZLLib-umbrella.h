@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ZLLib.h"
 
 FOUNDATION_EXPORT double ZLLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZLLibVersionString[];
